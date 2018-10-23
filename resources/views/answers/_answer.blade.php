@@ -1,5 +1,5 @@
 <answer :answer="{{ $answer }}" inline-template>
-     <div class="media post">
+    <div class="media post">
         <vote :model="{{ $answer}}" name="answer"></vote>
 
         <div class="media-body">
